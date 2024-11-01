@@ -1,0 +1,131 @@
+.settings_page_wp-utility-and-performance #wpcontent{
+    padding: 0;
+}
+.wpup-page-wrapper.wrap{
+    margin: 0;
+} 
+.wpup-page-wrapper a{
+    text-decoration: none;
+} 
+.wpup-page-header{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.wpup-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.wpup-flex-box{
+    -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+.wpup-logo-wrapper a{
+    display: flex;
+    align-items: center;
+}
+.wpup-container #poststuff h3 {
+    padding: 12px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e6e6e6;
+}
+.wpup-container textarea {
+    border-radius: 0;
+    border: 1px solid #ccd0d4;
+    background: #f8f8f8;
+    font-family:Courier New;
+}
+.wpup-page-wrapper .media-upload-form .notice, 
+.wpup-page-wrapper .media-upload-form div.error, 
+.wpup-page-wrapper.wrap .notice, 
+.wpup-page-wrapper.wrap div.error, 
+.wpup-page-wrapper.wrap div.updated{
+    margin-top: 0;
+}
+.wpup-list{
+    padding-left: 18px;
+}
+.wpup-list li{
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+    list-style: square;
+}
+.wpup-container .wpup-clear:before { 
+    content: " "; 
+    display: table; 
+}
+.wpup-container .wpup-clear:after { 
+    clear: both; 
+    content: " "; 
+    display: table; 
+}
+.wpup-container .wpup-row { 
+    padding: 10px 0 6px;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 45% 10%;
+}
+.wpup-container .wpup-label label { 
+    font-weight: 600; 
+}
+.wpup-switch-toggle { 
+    position: relative; 
+    display: inline-block; 
+    width: 40px; 
+    height: 22px; 
+    background-color: rgba(0, 0, 0, 0.25); 
+    border-radius: 20px; 
+    transition: all 0.3s; 
+    cursor: pointer; 
+}
+.wpup-switch-toggle::before { 
+    content: ''; 
+    position: absolute; 
+    width: 18px; 
+    height: 18px; 
+    border-radius:50%; 
+    background-color: white; 
+    top: 2px; left: 2px; 
+    transition: all 0.3s; 
+}
+.wpup-switch-checkbox:checked + .wpup-switch-toggle::before { 
+    left : 20px; 
+}
+.wpup-switch-checkbox:checked + .wpup-switch-toggle { 
+    background-color: #4cc57e; 
+}
+.wpup-switch-checkbox { 
+    display : none !important; 
+}
+.wpup-settings #poststuff .inside{
+    border-bottom: 1px solid #e4e4e4;
+}
+.wpup-settings #poststuff .inside:last-child {
+    border: none;
+}
+.wpup-settings .plugin-sidebar ul {
+    padding-left: 17px;
+}
+.wpup-settings .plugin-sidebar ul li {
+    list-style: square;
+}
